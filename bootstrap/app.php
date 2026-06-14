@@ -26,6 +26,4 @@ return Application::configure(basePath: dirname(__DIR__))
             'role' => EnsureRole::class,
         ]);
     })
-    ->withExceptions(function (Exceptions $exceptions): void {
-
-    });
+    ->withExceptions(function (Exceptions $exceptions): void {})->create();
